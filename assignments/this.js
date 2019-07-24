@@ -1,8 +1,8 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. When "this" appears in the global scope, it points to the window object
-* 2. 
+* 1. Global: When "this" appears in the global scope, it points to the window object
+* 2. Implicit: Whenever "this" is called via preceding dot notation, "this" points to the object (user) it is contained in
 * 3. 
 * 4. 
 *
