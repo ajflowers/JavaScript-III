@@ -108,3 +108,44 @@
   // * Create Villain and Hero constructor functions that inherit from the Humanoid constructor function.  
   // * Give the Hero and Villains different methods that could be used to remove health points from objects which could result in destruction if health gets to 0 or drops below 0;
   // * Create two new objects, one a villain and one a hero and fight it out with methods!
+
+
+
+// //-------playing around with some things
+
+// //-------die roller functions to add randomness to attacks
+//   function makeDice(num) {
+//     return function diceRoller() {
+//       return Math.floor(Math.random() * num + 1);
+//     }
+//   }
+//   const d4 = makeDice(4);
+//   const d6 = makeDice(6);
+//   const d8 = makeDice(8);
+//   const d10 = makeDice(10);
+//   const d12 = makeDice(12);
+//   const d20 = makeDice(20);
+
+
+// //    testing accuracy of dice
+// //    CHROME HATES THIS ONE WEIRD TRICK
+//   const roll = [];
+//   for(i = 0; i < 20000; i++ ) {
+//     roll.push(d20());
+//   };
+
+//   function howMany (num) {
+//     let blankArray = [];
+//     for(i = 0; i < num; i++) {
+//       blankArray.push(0);
+//     }
+//     return blankArray;
+//   }
+
+// const outOfTwenty = howMany(20);
+  
+//   roll.forEach(function(result) {
+//     outOfTwenty[result-1]++;
+//   });
+
+//   console.log(outOfTwenty);
